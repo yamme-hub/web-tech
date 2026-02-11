@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Academic Profile</title>
+    <meta name="description" content="Personal academic profile">
+    <meta name="keywords" content="academic profile">
+    <meta name="author" content="Student Name">
+</head>
+<body>
+    <header>
+        <h1>Student Name</h1>
+        <nav>
+            <a href="#bio">Biography</a>
+            <a href="#edu">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>background.</p>
+        </section>
+
+        <section id="edu">
+            <h2>Education</h2>
+
+            <table>
+                <caption>Qualifications</caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc</td>
+                        <td>University Name</td>
+                        <td>2026</td>
+                        <td>CGPA 3.95</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" maxlength="50"><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" pattern="[0-9]{11}"><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" required placeholder="Your message" maxlength="200"></textarea>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Student Name</p>
+    </footer>
+</body>
+</html>
